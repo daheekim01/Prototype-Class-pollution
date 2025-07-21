@@ -724,7 +724,7 @@ check();
 
 if문에서는 새로 만든 빈 객체에서도 a0가 true로 나오는지 테스트합니다. 오염된 Object.prototype에서 a0 값을 읽어오며, true가 반환됨에 따라 취약점의 존재가 확인됩니다.  
 
-> https://security.snyk.io/vuln/SNYK-JS-LODASH-450202
+> [SNYK-JS-LODASH-450202]https://security.snyk.io/vuln/SNYK-JS-LODASH-450202
 > 
 > 
 > [https://snyk.io/blog/snyk-research-team-discovers-severe-prototype-pollution-security-vulnerabilities-affecting-all-versions-of-lodash/?_gl=1*d7rzny*_gcl_au*MTc4MTUyODEzLjE3NTAzNDcwMDM.*_ga*MTI5NzMxODQuMTc1MDM0MjczMQ..*_ga_X9SH3KP7B4*czE3NTAzNTIxMDckbzMkZzEkdDE3NTAzNTIyNTQkajYwJGwwJGgw](https://snyk.io/blog/snyk-research-team-discovers-severe-prototype-pollution-security-vulnerabilities-affecting-all-versions-of-lodash/?_gl=1*d7rzny*_gcl_au*MTc4MTUyODEzLjE3NTAzNDcwMDM.*_ga*MTI5NzMxODQuMTc1MDM0MjczMQ..*_ga_X9SH3KP7B4*czE3NTAzNTIxMDckbzMkZzEkdDE3NTAzNTIyNTQkajYwJGwwJGgw)
