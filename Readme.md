@@ -316,7 +316,7 @@ http://127.0.0.1:5000/?note=%3Ciframe%20onload=eval(atob(%22BASE64 인코딩된 
 
 ---
 
-# class pollution ( 정성훈 )
+# class pollution
 
 ## class pollution 이란
 
@@ -724,7 +724,7 @@ check();
 
 if문에서는 새로 만든 빈 객체에서도 a0가 true로 나오는지 테스트합니다. 오염된 Object.prototype에서 a0 값을 읽어오며, true가 반환됨에 따라 취약점의 존재가 확인됩니다.  
 
-> [SNYK-JS-LODASH-450202]https://security.snyk.io/vuln/SNYK-JS-LODASH-450202
+> [SNYK-JS-LODASH-450202](https://security.snyk.io/vuln/SNYK-JS-LODASH-450202)
 > 
 > 
 > [https://snyk.io/blog/snyk-research-team-discovers-severe-prototype-pollution-security-vulnerabilities-affecting-all-versions-of-lodash/?_gl=1*d7rzny*_gcl_au*MTc4MTUyODEzLjE3NTAzNDcwMDM.*_ga*MTI5NzMxODQuMTc1MDM0MjczMQ..*_ga_X9SH3KP7B4*czE3NTAzNTIxMDckbzMkZzEkdDE3NTAzNTIyNTQkajYwJGwwJGgw](https://snyk.io/blog/snyk-research-team-discovers-severe-prototype-pollution-security-vulnerabilities-affecting-all-versions-of-lodash/?_gl=1*d7rzny*_gcl_au*MTc4MTUyODEzLjE3NTAzNDcwMDM.*_ga*MTI5NzMxODQuMTc1MDM0MjczMQ..*_ga_X9SH3KP7B4*czE3NTAzNTIxMDckbzMkZzEkdDE3NTAzNTIyNTQkajYwJGwwJGgw)
@@ -823,7 +823,7 @@ POST /unicorn/message/todo HTTP/1.1
 
 공격자는 property_name으로 __init__.__globals__.sys.modules.django.template.backends.django.settings.SECRET_KEY를 설정합니다. __globals__는 파이썬의 전역 네임스페이스를 참조하는 특수한 속성이므로, 이를 통해 sys.modules를 거쳐, django.settings.SECRET_KEY에 접근하고 수정할 수 있습니다. 그 결과, 공격자는 비밀 키의 런타임 값을 의도한 대로 변조함으로써 세션 쿠키를 위조하여 다른 사용자로 시스템에 로그인할 수 있습니다.
 
-> https://nvd.nist.gov/vuln/detail/CVE-2025-24370
+> [CVE-2025-24370](https://nvd.nist.gov/vuln/detail/CVE-2025-24370)
 > 
 > 
 > https://www.cve.org/CVERecord?id=CVE-2025-24370
