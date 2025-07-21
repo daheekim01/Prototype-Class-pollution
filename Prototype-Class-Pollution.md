@@ -1,8 +1,6 @@
-# 초안
-
 ***By Knights of the SPACE 가세혁(dpp), 김다희(lxnee), 박진완(realsung), 정성훈(HunSec)***
 
-# **BackGround( 정성훈 )**
+# **BackGround**
 
 ### **Class Pollution 취약점 소개 전에 알아야 할 배경지식**
 
@@ -162,7 +160,7 @@ c.say_hi()  # 👉 Parent에서 상속받은 메서드
 
 ---
 
-# Prototype pollution ( 박진완 )
+# Prototype pollution 
 
 ## Prototype pollution 이란
 
@@ -472,7 +470,7 @@ Object는 속성 설정이 불가능합니다. Python 언어 특성상 **object,
 
 ---
 
-# Class Pollution 공격 예시 ( 가세혁 )
+# Class Pollution 공격 예시 
 
 ## 공격 예시
 
@@ -636,7 +634,7 @@ https://book.hacktricks.wiki/en/generic-methodologies-and-resources/python/class
 
 ---
 
-# realworld case ( 김다희 )
+# realworld case 
 
 ## Prototype Pollution
 
